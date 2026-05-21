@@ -109,7 +109,7 @@
 
 ---
 
-## 🚀 Para la comunidad
+##  Para la comunidad
 
 **Fox Code** es un proyecto creado **por y para la comunidad**.
 
@@ -181,47 +181,7 @@ El mundo del desarrollo tiene editores increíbles, pero la mayoría viene con e
 
 ---
 
-## ✨ Funcionalidades
 
-- **Editor** con resaltado de sintaxis (Monaco)
-- **Terminal nativa** con PTY
-- **Panel de IA** con streaming vía Tauri events
-- **Explorador de archivos** integrado
-- **Multi-pestañas** con tabs nativos
-- **Paleta de comandos** al estilo VS Code
-- **Git** — estado, branches, cambios
-- **Titlebar personalizado** sin depender del SO
-- **Paneles redimensionables**
-- **Configuración persistente** en SQLite
-- **Proveedores de IA**: OpenAI, Anthropic, Groq, Ollama
-- Las **API keys** nunca salen del proceso Rust
-- **Cero dependencias frontend** — sin React, sin Vue, sin Svelte
-
-<br/>
-
----
-
-## 📐 Arquitectura
-
-```
-Frontend (TypeScript Vanilla)
-        │
-        │ invoke() / listen()
-        ▼
-Tauri Commands (Rust)
-        │
- ┌──────┼──────────────┐
- │      │              │
- FS     PTY            AI
- │      │              │
-Git   Terminal      Providers
-        │
-   SQLite (settings)
-```
-
-<br/>
-
----
 
 ## 🏁 Empezar
 
@@ -231,20 +191,6 @@ Git   Terminal      Providers
 - [Node.js](https://nodejs.org/) 20+
 - [Tauri prerequisites](https://v2.tauri.app/start/prerequisites/)
 
-### Desarrollo
-
-```bash
-npm install
-npm run tauri dev
-```
-
-### Build
-
-```bash
-npm run tauri build
-```
-
-<br/>
 
 ---
 
@@ -263,18 +209,6 @@ Componentes modulares, escritos como clases TypeScript usando la **API nativa de
 
 <br/>
 
----
-
-## 🎨 Sistema de diseño
-
-- Tema oscuro personalizado
-- Sin sombras borrosas — bordes nítidos
-- Radio de esquinas pequeño
-- Tipografía monoespaciada
-- Transiciones rápidas
-- Color de acento: `#c0294a`
-
-<br/>
 
 ---
 
