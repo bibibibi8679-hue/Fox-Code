@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./fox.png" width="250" alt="Fox Code Logo" />
+  <img src="./fox.png" width="280" alt="Fox Code Logo" />
 </p>
 
 <p align="center">
